@@ -1,4 +1,7 @@
-﻿namespace WebAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebAPI.Models
 {
     public class User
     {
@@ -18,10 +21,26 @@
 
         public string Last_Name { get; set; }
 
-        public int Status { get; set; }
+        [Column(TypeName = "int")]
+        [EnumDataType(typeof(Status))]
+        public Status Status { get; set; }
 
-        public int Gender { get; set; }
+        [Column(TypeName = "int")]
+        [EnumDataType(typeof(Gender))]
+        public Gender Gender { get; set; }
 
         public DateTime Date_Of_Birth { get; set; }
     }
+}
+
+public enum Status
+{
+    Active,
+    Deleted,
+}
+
+public enum Gender
+{
+    Male,
+    Female,
 }

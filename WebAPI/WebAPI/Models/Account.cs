@@ -1,4 +1,7 @@
-﻿namespace WebAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebAPI.Models
 {
     public class Account
     {
@@ -14,10 +17,13 @@
 
         public string Account_Number { get; set; }
 
-        public decimal Balance { get; set; }
+        public double Balance { get; set; }
 
         public string Currency { get; set; }
 
-        public int Status { get; set; }
+        [Column(TypeName = "int")]
+        [EnumDataType(typeof(Status))]
+        public Status Status { get; set; }
     }
 }
+

@@ -1,0 +1,70 @@
+﻿@page
+@model WebApp.Pages.Users.IndexModel
+@{
+}
+
+<br>
+<h2>List Of Users</h2>
+<a class="btn btn-primary btn-sm" href="/Users/Create">New Users</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Status</th>
+            <th>Gender</th>
+            <th>Date_Of_Birth</th>
+            <th>Update_DateTime_UTC</th>
+            <th>DateTime_UTC</th>
+            <th>Server_DateTime</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listUsers)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Username</td>
+                <td>@item.Email</td>
+                <td>@item.First_Name</td>
+                <td>@item.Last_Name</td>
+                <td>
+                    @if (item.Status == 0)
+                    {
+                        <span>Active</span>
+                    }
+                    else
+                    {
+                        <span>Deleted</span>
+                    }
+                </td>
+                <td>@if (item.Gender == 0)
+                    {
+                        <span>Male</span>
+                    } else
+                    {
+                        <span>Female</span>
+                    }
+                </td>
+                <td>@item.Date_Of_Birth</td>
+                <td>@item.Update_DateTime_UTC</td>
+                <td>@item.DateTime_UTC</td>
+                <td>@item.Server_DateTime</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Users/Edit?id=@item.ID">Edit</a>
+                    @if(item.Status == 0)
+                    {
+                        <a class="btn btn-danger btn-sm" href="/Users/Delete?id=@item.ID">Delete</a>
+                    } else
+                    {
+                        <a class="btn btn-success btn-sm" href="/Users/Reactivate?id=@item.ID">Reactivate</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

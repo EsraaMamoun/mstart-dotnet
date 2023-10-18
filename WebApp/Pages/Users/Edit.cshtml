@@ -1,0 +1,91 @@
+﻿@page
+@model WebApp.Pages.Users.EditModel
+@{
+}
+
+<br />
+<h2>Edit User With ID: @Model.userInfo.ID</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+}
+
+<form method="POST">
+    <input type="hidden" name="id" value="@Model.userInfo.ID" />
+    <dev class="rom mb-3">
+        <label class="col-sm-3 col-form-label">Username</label>
+        <dev class="col-sm-6">
+            <input type="text" class="form-control" name="username" value="@Model.userInfo.Username" />
+        </dev>
+    </dev>
+
+
+    <dev class="rom mb-3">
+        <label class="col-sm-3 col-form-label">Email</label>
+        <dev class="col-sm-6">
+            <input type="email" class="form-control" name="email" value="@Model.userInfo.Email" />
+        </dev>
+    </dev>
+
+
+    <dev class="rom mb-3">
+        <label class="col-sm-3 col-form-label">First Name</label>
+        <dev class="col-sm-6">
+            <input type="text" class="form-control" name="first_name" value="@Model.userInfo.First_Name" />
+        </dev>
+    </dev>
+
+
+    <dev class="rom mb-3">
+        <label class="col-sm-3 col-form-label">Last Name</label>
+        <dev class="col-sm-6">
+            <input type="text" class="form-control" name="last_name" value="@Model.userInfo.Last_Name" />
+        </dev>
+    </dev>
+
+
+
+
+    <dev class="rom mb-3">
+        <label class="col-sm-3 col-form-label">Gender</label>
+        <dev class="col-sm-6">
+            <input type="radio" id="male" name="gender" value="0" @Model.checkMale>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="1" @Model.checkFemale>
+            <label for="female">Female</label><br>
+        </dev>
+    </dev>
+
+
+    <dev class="rom mb-3">
+        <label class="col-sm-3 col-form-label">Date Of Birth</label>
+        <dev class="col-sm-6">
+            <input type="date" class="form-control" name="date_of_birth" value="@Model.dateOfBirthFormated" />
+        </dev>
+    </dev>
+
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>@Model.successMessage</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" area-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <dev class="rom mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-online-primary" role="button" href="/">Cancel</a>
+        </div>
+    </dev>
+</form>

@@ -1,0 +1,30 @@
+﻿@page
+@using System.Data.SqlClient;
+
+@{
+    try
+    {
+        String id = Request.Query["id"];
+        String connectionString = "Server=tcp:mstarttaskserver.database.windows.net,1433;Initial Catalog=mstartTaskDB;Persist Security Info=False;User ID=EsraaM;Password=Esraa.1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            String sql = "UPDATE Users " +
+                "SET Status=1 " +
+                "WHERE ID=@ID";
+            using (SqlCommand sqlCommand = new SqlCommand(sql, connection))
+            {
+                sqlCommand.Parameters.AddWithValue("@ID", id);
+                
+                sqlCommand.ExecuteNonQuery();
+            }
+        }
+
+        Response.Redirect("/Users");
+
+    } catch (Exception ex)
+    {
+        
+    }
+}
