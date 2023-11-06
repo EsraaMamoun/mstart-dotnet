@@ -37,7 +37,7 @@ namespace WebApp.Pages.Users
 
             try
             {
-                String connectionString = "Server=tcp:mstarttaskserver.database.windows.net,1433;Initial Catalog=mstartTaskDB;Persist Security Info=False;User ID=EsraaM;Password=Esraa.1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                String connectionString = "";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
