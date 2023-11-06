@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\esraa\Desktop\esraa_workspace\mstart-dotnet\WebApp\
+build_property.ProjectDir = c:\Users\esraa\Desktop\esraa_workspace\mstart-dotnet\WebApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\esraa\Desktop\esraa_workspace\mstart-dotnet\WebApp
+build_property.MSBuildProjectDirectory = c:\Users\esraa\Desktop\esraa_workspace\mstart-dotnet\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Create.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Delete.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Details.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Edit.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Index.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Reactivate.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Reactivate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcUmVhY3RpdmF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Error.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Index.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Privacy.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Create.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Delete.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Details.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Edit.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Index.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Reactivate.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Reactivate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUmVhY3RpdmF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/_ViewImports.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/_ViewStart.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Shared/_Layout.cshtml]
+[c:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1lnhnt7yf2
