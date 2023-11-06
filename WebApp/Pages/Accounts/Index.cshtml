@@ -1,0 +1,101 @@
+﻿@page
+@model WebApp.Pages.Accounts.IndexModel
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<br />
+
+<form method="get">
+    <dev class="input-group">
+        <input class="form-control" asp-for="SearchAccount" />
+        <dev class="input-group-append">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </dev>
+    </dev>
+</form>
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].User_ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Server_DateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].DateTime_UTC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Update_DateTime_UTC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Account_Number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Currency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Account) {
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User_ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Server_DateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateTime_UTC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Update_DateTime_UTC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Account_Number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Currency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                @if (item.Status == 0)
+                {
+                    <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                }
+                else
+                {
+                    <a asp-page="./Reactivate" asp-route-id="@item.ID">Reactivate</a>
+
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

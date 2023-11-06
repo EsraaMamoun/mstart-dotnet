@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebApp.Models
 {
@@ -15,9 +16,11 @@ namespace WebApp.Models
 
         public DateTime Update_DateTime_UTC { get; set; }
 
+        [Required(ErrorMessage = "Account Number is required.")]
+        [RegularExpression("^[0-9]{7}$", ErrorMessage = "Account Number must be 7 digits.")]
         public string Account_Number { get; set; }
 
-        public double Balance { get; set; }
+        public decimal Balance { get; set; }
 
         public string Currency { get; set; }
 
@@ -25,5 +28,4 @@ namespace WebApp.Models
         [EnumDataType(typeof(Status))]
         public Status Status { get; set; }
     }
-
 }

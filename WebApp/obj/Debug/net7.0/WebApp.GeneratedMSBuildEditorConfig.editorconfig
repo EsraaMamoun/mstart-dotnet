@@ -16,6 +16,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\esraa\Desktop\esraa_workspace\mstart-dotnet\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Accounts/Reactivate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcUmVhY3RpdmF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/esraa/Desktop/esraa_workspace/mstart-dotnet/WebApp/Pages/Users/Edit.cshtml]

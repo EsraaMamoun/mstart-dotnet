@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebApp.Models
 {
@@ -14,8 +15,12 @@ namespace WebApp.Models
 
         public DateTime Update_DateTime_UTC { get; set; }
 
+        [Required]
+        [RegularExpression("^[a-zA-Z0-9]*$", ErrorMessage = "Only English letters and numbers are allowed.")]
         public string Username { get; set; }
 
+        [Required]
+        [EmailAddress]
         public string Email { get; set; }
 
         public string First_Name { get; set; }
@@ -33,17 +38,4 @@ namespace WebApp.Models
         public DateTime Date_Of_Birth { get; set; }
     }
 
-}
-
-
-public enum Status
-{
-    Active,
-    Deleted,
-}
-
-public enum Gender
-{
-    Male,
-    Female,
 }

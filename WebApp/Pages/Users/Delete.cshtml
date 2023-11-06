@@ -5,7 +5,7 @@
     try
     {
         String id = Request.Query["id"];
-        String connectionString = "Server=tcp:mstarttaskserver.database.windows.net,1433;Initial Catalog=mstartTaskDB;Persist Security Info=False;User ID=EsraaM;Password=Esraa.1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        String connectionString = "";
 
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
@@ -16,15 +16,16 @@
             using (SqlCommand sqlCommand = new SqlCommand(sql, connection))
             {
                 sqlCommand.Parameters.AddWithValue("@ID", id);
-                
+
                 sqlCommand.ExecuteNonQuery();
             }
         }
 
         Response.Redirect("/Users");
 
-    } catch (Exception ex)
+    }
+    catch (Exception ex)
     {
-        
+
     }
 }
